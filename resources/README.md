@@ -61,19 +61,19 @@ What about cost, deployability, agility, configurability, elasticity, evolvabili
 
 What actions do we need to support for this system? 
 
-Test ? 
-
 Photos? 
 
 Videos?
 
-Front-end ?
+Is Front-end Design needed?
+
+Is Test Plan/ Design needed?
 
 Trending Section?
 
 Push Notification?
 
-Offline Access?
+Do we want to support Offline Access?
 
 
 
@@ -164,30 +164,30 @@ Offline Access?
 **Typical Storage Combos**
 
 Combo 1: S3  + Spark + EMR or Glue.  Or Cloud file
-Benefit: Cost+ and Scale
-Downside: Slow search and processing
+- Benefit: Cost+ and Scale
+- Downside: Slow search and processing
 
 Combo 2: HDFS + Hive + Hadoop
-Benefit: Cost++ and Scale
-Downside: setup the nodes, slow search
+- Benefit: Cost++ and Scale
+- Downside: setup the nodes, slow search
 
 Combo 3: ElasticSearch or ELK 
-Benefit: Fast Search, Custom Search: Fuzzy Search, Negative search, customer search
-Downside: Setup the nodes, Cost
+- Benefit: Fast Search, Custom Search: Fuzzy Search, Negative search, customer search
+- Downside: Setup the nodes, Cost
 
 Combo 4: Dynamo + Indexes
-Benefit:Cost, Fast Search
-Downside: Cost, Only Exact Search
+- Benefit:Cost, Fast Search
+- Downside: Cost, Only Exact Search
 
 
 **Messaging Technology **
-Stream Brokers: Kafka, Spark Streaming, Kinesis
-Queue Broker: RabbitMQ, SQS
-Notification Broker: SNS
+- Stream Brokers: Kafka, Spark Streaming, Kinesis
+- Queue Broker: RabbitMQ, SQS
+- Notification Broker: SNS
 
-Data Processing Technologies
-Big Data: Spark, Hadoop, Hive, EMR, Serverless Glue
-Stream Processor: Kafka Streams, Spark Streaming, Flink, Storm, Kinesis Firehose, Kinesis Analytics
+**Data Processing Technologies**
+- Big Data: Spark, Hadoop, Hive, EMR, Serverless Glue
+- Stream Processor: Kafka Streams, Spark Streaming, Flink, Storm, Kinesis Firehose, - Kinesis Analytics
 
 
 
