@@ -1,7 +1,7 @@
 
 # Design Tiktok
 
-![tiktok doc](Untitled-2022-11-25-1700.png)
+![tiktok doc](Untitled5.png)
 
 ##Requirements:
 
