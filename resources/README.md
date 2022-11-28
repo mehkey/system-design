@@ -2,9 +2,7 @@ https://github.com/donnemartin/system-design-primer
 
 
 
-
-![Screenshot](screenshot.png)
-
+![Screenshot](archtitecture-style-worksheet.jpg)
 
 
 TYPICAL SIZE CALCULATION REFERNCES
@@ -136,7 +134,7 @@ Offline Access?
 
 
 
-Steps in the system design:
+**Steps in the system design:**
 
 1. Understand and clarify
 2. List the Nonfunctional Requirements Scope
@@ -161,7 +159,7 @@ Steps in the system design:
 8. End to End what happens to a user
 
 
-Extra Topics:
+**Extra Topics:**
 
 - Architecture Fitness Functions 
 - DevOps 
@@ -173,12 +171,12 @@ Extra Topics:
 - Extra functionalities 
 
 
-Architecture Domain Styles
+**Architecture Domain Styles**
 - monolith 
 - microservices
 - service based
 
-Architecture Technical Styles
+**Architecture Technical Styles**
 - event-driven
 - server less (deployment style)
 - layered
