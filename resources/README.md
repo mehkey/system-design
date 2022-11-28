@@ -1,6 +1,11 @@
-https://github.com/donnemartin/system-design-primer
 
 
+Book Refernces:
+
+-Grokking the System Design - Design Gurus
+-System Design Interview - Alex Xu
+-System Design Primer - https://github.com/donnemartin/system-design-primer
+-Designing Data Intensive Applications-   Martin Kleppmann
 
 ![Screenshot](./architecture-styles-worksheet.jpg)
 
