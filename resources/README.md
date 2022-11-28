@@ -2,7 +2,7 @@ https://github.com/donnemartin/system-design-primer
 
 
 
-![Screenshot](./archtitecture-styles-worksheet.jpg)
+![Screenshot](./architecture-styles-worksheet.jpg)
 
 
 
