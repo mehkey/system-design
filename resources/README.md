@@ -2,60 +2,12 @@ https://github.com/donnemartin/system-design-primer
 
 
 
-![Screenshot](archtitecture-style-worksheet.jpg)
-
-
-TYPICAL SIZE CALCULATION REFERNCES
-
-number= 4 bytes
-20 bytes
-100 bytes per thing
-
-Get the data storage for each things
-1 number = 8 bytes
-1 float = 8 bytes
-date. = 8 bytes
-char = 2 bytes * character (sometimes 1 byte)
-1 string = 4 bytes * length = 200
-pastebin averge = 10kb
-UUID is a 128-bit number  = 16 bytes
-
-1 video = 10 mb 
-1 picture = 1 mb
-
-video view 1:200  ratio
-
-one minute of video needs 50MB of storage  on youtube pass video chunks
- (a video chunk)
-
-a photo is 200KB
-video is 2MB  on twitter
-
-Get the limits
-
-Memory limits
-Up to 100 gb in memory at the same time
-
-SQL db limits  for one instance
-1,000,000 row reads per second
-100,00 row updates per second
-
-50K concurrent connections at any time for any server
-10K such servers for 500M connections
-
-GB or TB or GB would require either SQL or bigData
-
-Let’s say each tweet has 140 characters and we need two bytes to store a character without compression. Let’s assume we need 30 bytes to store metadata with each tweet (like ID, timestamp, user ID, etc.). Total storage we would need:  Tweet
-100M * (280 + 30) bytes => 30GB/day 
-
-
-ElasticSerach latency 250ms
-
-7x10 times faster grpc
+![Screenshot](./archtitecture-styles-worksheet.jpg)
 
 
 
-TYPICAL SERVICES NEEDED
+
+**TYPICAL SERVICES NEEDED**
 User Service
 Search Service
 Notification Service  (email?,sms?,page?)(with queue before)
@@ -83,7 +35,7 @@ Ranking Service
 
 
 
-Questions to ask:
+**Questions to ask:**
 
 Is it Mobile App? Browser App? or Both? 
 
@@ -186,13 +138,13 @@ Offline Access?
 - LMAX 
 - Space Based
 
-Architecture communication choice
+**Architecture communication choice**
 - Asynchronous vs Synchronous
 - Orchestrated vs Choreographed
 - Consistent vs Eventually consistent
 
 
-Databases
+**Databases**
 
 - RDBMS stores rows
 	- Relational: Mysql, Oracle, SQLServer, MariaDB, H2, SQLite
@@ -214,7 +166,7 @@ Databases
 	- Distributed Key-value Cache: Redis, memcached
 
 
-Typical Storage Combos
+**Typical Storage Combos**
 
 Combo 1: S3  + Spark + EMR or Glue.  Or Cloud file
 Benefit: Cost+ and Scale
@@ -233,7 +185,7 @@ Benefit:Cost, Fast Search
 Downside: Cost, Only Exact Search
 
 
-Messaging Technology 
+**Messaging Technology **
 Stream Brokers: Kafka, Spark Streaming, Kinesis
 Queue Broker: RabbitMQ, SQS
 Notification Broker: SNS
@@ -247,7 +199,7 @@ Stream Processor: Kafka Streams, Spark Streaming, Flink, Storm, Kinesis Firehose
 
 
 
-General techniques to scale
+**General techniques to scale**
 
 - Distributed computing
 - Load Balancing
@@ -267,13 +219,13 @@ General techniques to scale
 
 
 
-- Axes of Scale
+** Axes of Scale**
 - Vertical
 - Horizontal
 - Sharding
 
 
-Distributed Patterns
+**Distributed Patterns**
 - Bloom Filters to find the location of data
 - Consistent Hashing to balance load when the number of servers varies
 - HeadBulk 
@@ -290,7 +242,7 @@ Distributed Patterns
 
 
 
-Extra concepts
+**Extra concepts**
 
 - Cloud vs On Premise
 - Auto Scaling - helps (EBS, Kubernetes)
@@ -301,7 +253,7 @@ Extra concepts
 	- Traces
 
 
-Security
+**Security**
 - Encrypted Communication using HTTPS TLS SSL
 - Store sensitive information in encrypted format
 - Remove unwanted sensitive information from logs and databases
@@ -310,7 +262,7 @@ Security
 - DDOS prevention
 
 
-Event Driven Architecture
+**Event Driven Architecture**
 - Type of Events:
 	- Event Source  e.g. git changes can be reconstructed
 	- Notification
@@ -329,7 +281,7 @@ Event Driven Architecture
 	- Ambulance for different priority messaging
 
 
-Types of Communication:
+**Types of Communication**
 - REST
 - Web Sockets
 - RPC
@@ -345,7 +297,7 @@ Types of Communication:
 - RTMP / SRP
 
 
-Caching Techniques
+**Caching Techniques**
 - Cache Policy
 	- LRU
 	- Random
@@ -363,7 +315,7 @@ Caching Techniques
 	- write back cache
 
 
-Load Balancing Techniques
+**Load Balancing Techniques**
 - Policies
 	- Round Robin
 	- Random
@@ -384,7 +336,7 @@ Load Balancing Techniques
 
 
 
-
+**Load Balancing **
 
 Least Connection Method — This method directs traffic to the server with the fewest active connections. This approach is quite useful when there are a large number of persistent client connections which are unevenly distributed between the servers. 
 • Least Response Time Method — This algorithm directs traffic to the server with the fewest active connections and the lowest average response time. 
@@ -400,18 +352,19 @@ Least Connection Method — This method directs traffic to the server with the f
 
 
 
-Distributed Search
+**Distributed Search**
 	- Store Index in one DB and data in another DB
 		- Use a cache for the Index
 	- Use Elastic Search
 		- Use a cache for the Index
 
-Encoding
+**Encoding**
 - sha256
 - md5
 - Using base64 encoding, a 6 letter long key would result in 64^6 = ~68.7 billion possible strings Using base64 encoding, an 8 letter long key would result in 64^8 = ~281 trillion possible strings 
 
-When To Split Services? Granularity
+
+**When To Split Services? Granularity of Microservice**
 - Clear Logically / Simplicity
 - Code Changes Frequently (deployment)
 - Scalability
@@ -421,12 +374,12 @@ When To Split Services? Granularity
 - Data Dependency
 - Lots of Choreography
 
-When to choreograph?
+**When to choreograph? **
 - responsive
 - performant
 - less couple
 
-When to orchestrate?
+**When to orchestrate?**
 - centralized
 - control
 - error handling
@@ -434,14 +387,14 @@ When to orchestrate?
 
 
 
-Integration Patterns
+**Integration Patterns**
 - Shared File
 - Shared DB
 - Message
 - RPC
 
 
-Main Differences SQL and noSQL
+**Main Differences SQL and noSQL**
 - SCALE
 	- max out at a couple thousand query per second... varies based on many things... 
 	- 100,000 or millions of QPS
@@ -463,3 +416,53 @@ Main Differences SQL and noSQL
 	- eventual consisten, RDBMS are consistent
 - JOINS 
 	- possibility to join
+
+
+
+**TYPICAL ESTIMATION CALCULATION REFERNCES**
+
+number= 4 bytes
+20 bytes
+100 bytes per thing
+
+Get the data storage for each things
+1 number = 8 bytes
+1 float = 8 bytes
+date. = 8 bytes
+char = 2 bytes * character (sometimes 1 byte)
+1 string = 4 bytes * length = 200
+pastebin averge = 10kb
+UUID is a 128-bit number  = 16 bytes
+
+1 video = 10 mb 
+1 picture = 1 mb
+
+video view 1:200  ratio
+
+one minute of video needs 50MB of storage  on youtube pass video chunks
+ (a video chunk)
+
+a photo is 200KB
+video is 2MB  on twitter
+
+Get the limits
+
+Memory limits
+Up to 100 gb in memory at the same time
+
+SQL db limits  for one instance
+1,000,000 row reads per second
+100,00 row updates per second
+
+50K concurrent connections at any time for any server
+10K such servers for 500M connections
+
+GB or TB or GB would require either SQL or bigData
+
+Let’s say each tweet has 140 characters and we need two bytes to store a character without compression. Let’s assume we need 30 bytes to store metadata with each tweet (like ID, timestamp, user ID, etc.). Total storage we would need:  Tweet
+100M * (280 + 30) bytes => 30GB/day 
+
+
+ElasticSerach latency 250ms
+
+7x10 times faster grpc
