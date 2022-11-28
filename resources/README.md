@@ -20,47 +20,6 @@
 
 
 
-## TYPICAL SERVICES NEEDED
-
-User Service
-
-Search Service
-
-Notification Service  (email?,sms?,page?)(with queue before)
-
-Authentication Service
-
-RateLimiting Service
-
-Recommendation Service 
-
-Data Verification Service 
-
-Tracking / Monitoring
-
-Internalizaiton Service
-
-Hot Trending Service (inputs from live data of stream processor cache)
-
-Cleanup Service (batch service)
-
-Pre-generate Data for key lookup
-
-Synchronization Service (with message queue before and after)
-
-Chunking ( seperating in chunks)
-
-Indexing Service (with queue before)
-
-Duplication Service (with queue before)
-
-User Status Service 
-
-Encoding Service ( with queue before)
-
-Personalisation Service (history, search, location, language)
-
-Ranking Service
 
 
 
@@ -504,3 +463,48 @@ Let’s say each tweet has 140 characters and we need two bytes to store a chara
 ElasticSerach latency 250ms
 
 7x10 times faster grpc
+
+
+
+
+## TYPICAL SERVICES NEEDED
+
+User Service
+
+Search Service
+
+Notification Service  (email?,sms?,page?)(with queue before)
+
+Authentication Service
+
+RateLimiting Service
+
+Recommendation Service 
+
+Data Verification Service 
+
+Tracking / Monitoring
+
+Internalizaiton Service
+
+Hot Trending Service (inputs from live data of stream processor cache)
+
+Cleanup Service 
+
+Pre-generate Data for key lookup
+
+Synchronization Service 
+
+Chunking ( seperating data in chunks)
+
+Indexing Service 
+
+Duplication Service 
+
+User Status Service 
+
+Encoding Service 
+
+Personalisation Service (history, search, location, language)
+
+Ranking Service
