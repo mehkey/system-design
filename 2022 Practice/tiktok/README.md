@@ -1,7 +1,9 @@
 
--> Design Tiktok
+# Design Tiktok
 
-Requirements:
+![tiktok doc](Untitled5.png)
+
+##Requirements:
 
 - User is able to share videos
 - User is able to watch videos on the FYP

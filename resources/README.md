@@ -106,7 +106,7 @@ Do we want to support Offline Access?
 8. End to End what happens to a user
 
 
-## Extra Topics:
+**Extra Topics:**
 
 - Architecture Fitness Functions 
 - DevOps 
@@ -180,7 +180,7 @@ Combo 4: Dynamo + Indexes
 - Downside: Cost, Only Exact Search
 
 
-**Messaging Technology **
+**Messaging Technology**
 - Stream Brokers: Kafka, Spark Streaming, Kinesis
 - Queue Broker: RabbitMQ, SQS
 - Notification Broker: SNS
@@ -214,7 +214,7 @@ Combo 4: Dynamo + Indexes
 
 
 
-** Axes of Scale**
+**Axes of Scale**
 - Vertical
 - Horizontal
 - Sharding
@@ -397,7 +397,7 @@ IP Hash — Under this method, a hash of the IP address of the client is calcula
 **Main Differences SQL and noSQL**
 - SCALE
 	- max out at a couple thousand query per second... varies based on many things... 
-	- 100,000 or millions of QPS
+	- 10,000 row writes  and row reads 1,000,000 for RDBMS
 	- Partition a RDBMS, it's not recommended
 	- NoSQL are typically partionned
 	- Master slave like Mongodb vs Ring Consistent hash like cassandra, dynamo, bigtable
@@ -426,24 +426,26 @@ number= 4 bytes
 100 bytes per thing
 
 Get the data storage for each things
-1 number = 8 bytes
-1 float = 8 bytes
-date. = 8 bytes
-char = 2 bytes * character (sometimes 1 byte)
-1 string = 4 bytes * length = 200
-pastebin averge = 10kb
-UUID is a 128-bit number  = 16 bytes
-
-1 video = 10 mb 
-1 picture = 1 mb
+- 1 number = 8 bytes
+- 1 float = 8 bytes
+- date. = 8 bytes
+- char = 2 bytes * character (sometimes 1 byte)
+- 1 string = 4 bytes * length = 200
+- pastebin averge = 10kb
+- UUID is a 128-bit number  = 16 bytes
 
 video view 1:200  ratio
 
 one minute of video needs 50MB of storage  on youtube pass video chunks
  (a video chunk)
 
-a photo is 200KB
-video is 2MB  on twitter
+LOW QUALITY CONTENT
+- 1 photo is 200KB on twitter
+- 1 video is 2MB  on twitter
+
+HIGH QUALITY CONTENT
+- 1 video = 10 mb 
+- 1 picture = 1 mb
 
 Get the limits
 
@@ -451,21 +453,19 @@ Memory limits
 Up to 100 gb in memory at the same time
 
 SQL db limits  for one instance
-1,000,000 row reads per second
-100,00 row updates per second
+-1,000,000 row reads per second
+-100,00 row updates per second
 
-50K concurrent connections at any time for any server
-10K such servers for 500M connections
+Server limits
+-50K concurrent connections at any time for any server
+-10K such servers for 500M connections
 
-GB or TB or GB would require either SQL or bigData
+GB or TB Data would require either NoSQL or bigData
 
 Let’s say each tweet has 140 characters and we need two bytes to store a character without compression. Let’s assume we need 30 bytes to store metadata with each tweet (like ID, timestamp, user ID, etc.). Total storage we would need:  Tweet
 100M * (280 + 30) bytes => 30GB/day 
 
-
 ElasticSerach latency 250ms
-
-7x10 times faster grpc
 
 
 

@@ -1,6 +1,8 @@
 Design Instagram:
 
 
+![instagram](./Untitled.png)
+
 Functional Requirements:
 
 1. User should be able to access the app on Mobile and Website
