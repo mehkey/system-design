@@ -1,7 +1,7 @@
 Design Instagram:
 
 
-![instagram] (./Untitles.png)
+![instagram](./Untitled.png)
 
 Functional Requirements:
 
