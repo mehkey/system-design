@@ -3,8 +3,11 @@
 Book Refernces:
 
 -Grokking the System Design - Design Gurus
+
 -System Design Interview - Alex Xu
+
 -System Design Primer - https://github.com/donnemartin/system-design-primer
+
 -Designing Data Intensive Applications-   Martin Kleppmann
 
 ![Screenshot](./architecture-styles-worksheet.jpg)
@@ -13,25 +16,45 @@ Book Refernces:
 
 
 **TYPICAL SERVICES NEEDED**
+
 User Service
+
 Search Service
+
 Notification Service  (email?,sms?,page?)(with queue before)
+
 Authentication Service
+
 RateLimiting Service
+
 Recommendation Service 
+
 Data Verification Service 
+
 Tracking / Monitoring
+
 Internalizaiton Service
+
 Hot Trending Service (inputs from live data of stream processor cache)
+
 Cleanup Service (batch service)
+
 Pre-generate Data for key lookup
+
 Synchronization Service (with message queue before and after)
+
 Chunking ( seperating in chunks)
+
 Indexing Service (with queue before)
+
 Duplication Service (with queue before)
+
 User Status Service 
+
 Encoding Service ( with queue before)
+
 Personalisation Service (history, search, location, language)
+
 Ranking Service
 
 
