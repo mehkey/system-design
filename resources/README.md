@@ -37,11 +37,11 @@ What are the most important features for the product?
 
 How many users? Rate of Growth new users per month?
 
- How fast does the company anticipate to scale up? What are the anticipated scales in 3 months, 6 months, and a year? 
+How fast does the company anticipate to scale up? What are the anticipated scales in 3 months, 6 months, and a year? 
 
 Who are the people who will use this?
 
-Read to Write Ratio?
+What is the Read to Write Ratio?
 
 How much data needs to be supported?
 
@@ -51,22 +51,25 @@ How many nines of availability?
 
 Is this running in the cloud or on premise?
 
-What is the company’s technology stack? What existing services you might leverage to simplify the design? 
+What is the company’s current technology stack?
 
-What about cost, deployability, agility, configurability, elasticity, evolvability, fault-tolerance, integration, simplicity, scalability, performance, testability?
-
-
+What existing services you might leverage to simplify the design? 
 
 Is there a predefined architecture style or communication style or storage type?
 
+What about cost, deployability, agility, configurability, elasticity, evolvability, fault-tolerance, integration, simplicity, scalability, performance, testability?
+
 What actions do we need to support for this system? 
 
+Test ? 
 
-Test ? Photos? Videos?
+Photos? 
 
-Front-end?
+Videos?
 
-Trending Topics?
+Front-end ?
+
+Trending Section?
 
 Push Notification?
 
