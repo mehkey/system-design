@@ -10,6 +10,11 @@ Book Refernces:
 
 -Designing Data Intensive Applications-   Martin Kleppmann
 
+-Funamentals of Software Architecture - Neil Ford, Mark Richards
+
+-Software Architecture the Hard Parts - Neil Ford, Mark Richards
+
+
 ![Screenshot](./architecture-styles-worksheet.jpg)
 
 
