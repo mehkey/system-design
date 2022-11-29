@@ -315,8 +315,10 @@ Combo 4: Dynamo + Indexes
 - Embedded
 - Multi Thread vs single Thread
 - Type of Write
-	- write through cache
-	- write back cache
+	- write through cache 
+	- write back cache 
+	- write Ahead cache 
+	- write Around cache
 
 
 **Load Balancing Techniques**
@@ -383,7 +385,7 @@ IP Hash — Under this method, a hash of the IP address of the client is calcula
 - Data Dependency
 - Lots of Choreography
 
-**When to choreograph? **
+**When to choreograph?**
 - responsive
 - performant
 - less couple
