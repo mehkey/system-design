@@ -6,16 +6,21 @@
 
 -System Design Interview - Alex Xu
 
--System Design Primer - https://github.com/donnemartin/system-design-primer
-
 -Designing Data Intensive Applications-   Martin Kleppmann
 
 -Funamentals of Software Architecture - Neil Ford, Mark Richards
 
 -Software Architecture the Hard Parts - Neil Ford, Mark Richards
 
+-System Design Primer - https://github.com/donnemartin/system-design-primer
+
 - https://medium.com/geekculture/cracking-the-system-design-interview-theory-basics-c57f5326181b
 
+- Youtube
+ - 
+ - 
+ - 
+ 
 
 ![Screenshot](./architecture-styles-worksheet.jpg)
 
