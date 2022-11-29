@@ -17,9 +17,11 @@
 - https://medium.com/geekculture/cracking-the-system-design-interview-theory-basics-c57f5326181b
 
 - Youtube
- - 
- - 
- - 
+ - Gaurav Sen https://www.youtube.com/@gkcs
+ - System Design Interview https://www.youtube.com/@SystemDesignInterview
+ - Exponent https://www.youtube.com/@tryexponent
+ - Tech Dummies with Narandra https://www.youtube.com/@TechDummiesNarendraL
+ - ByteByteGo https://www.youtube.com/@ByteByteGo
  
 
 ![Screenshot](./architecture-styles-worksheet.jpg)
