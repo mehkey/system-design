@@ -3,7 +3,7 @@
 
 ![tiktok doc](Untitled5.png)
 
-##Requirements:
+## Requirements:
 
 - User is able to share videos
 - User is able to watch videos on the FYP
@@ -27,7 +27,7 @@ Extra
 
 1B Users
 
-Non-Functional Requirements:
+## Non-Functional Requirements:
 - Scalability
 - Availablity. 99.999% 
 (Redundancy, Replication )

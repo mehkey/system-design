@@ -14,6 +14,8 @@
 
 -Software Architecture the Hard Parts - Neil Ford, Mark Richards
 
+- https://medium.com/geekculture/cracking-the-system-design-interview-theory-basics-c57f5326181b
+
 
 ![Screenshot](./architecture-styles-worksheet.jpg)
 
