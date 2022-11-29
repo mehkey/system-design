@@ -1,6 +1,10 @@
 
 # Design a URL Shortner
 
+
+## Design
+![shorteneing service](./Untitled6.png)
+
 ## Functional Requirements:
 - A user should provide a URL and receive a shoreded url
 - A user should be redirected to the original URL when going to the shoretened URL
