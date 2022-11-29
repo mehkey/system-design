@@ -7,7 +7,6 @@
 
 - Timelimit on the short? URL valid for a configurable amount of time
 
-- How many short urls created per day?
 
 
 - Before redirecting the user should see a 
@@ -17,9 +16,9 @@
 - Content should be filtered 
 
 
+- How many short urls created per day?
 1M per day
 Possibly going to increase over time.
-
 
 - How many short urls accesssed per day?
 100M per day
@@ -41,7 +40,6 @@ and Elasticity
 
 1M per day
 
-
 Storage
 
 URL Object
@@ -49,8 +47,7 @@ URL Object
 - shortened URL:string
 - creation date:date
 
-
-URL Index
+URL Cache Index
 - shortened URL:string (PK)
 - url:date
 
