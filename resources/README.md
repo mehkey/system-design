@@ -24,9 +24,6 @@
  - ByteByteGo https://www.youtube.com/@ByteByteGo
  
 
-![Screenshot](./architecture-styles-worksheet.jpg)
-
-
 
 
 
@@ -125,6 +122,9 @@ Do we want to support Offline Access?
 - Cost Analysis
 - Risk Analysis
 - Extra functionalities 
+
+
+![Screenshot](./architecture-styles-worksheet.jpg)
 
 
 **Architecture Domain Styles**
