@@ -11,9 +11,10 @@
 
 
 - Before redirecting the user should see a 
-- Temporary Accept page
-- Temporary Add 
-- Content Filtering 
+  - Temporary Accept page
+  - Temporary Ad
+  
+- Content should be filtered 
 
 
 1M per day
