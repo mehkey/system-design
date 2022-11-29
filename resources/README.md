@@ -14,9 +14,9 @@
 
 -System Design Primer - https://github.com/donnemartin/system-design-primer
 
-- https://medium.com/geekculture/cracking-the-system-design-interview-theory-basics-c57f5326181b
+-Blog Article https://medium.com/geekculture/cracking-the-system-design-interview-theory-basics-c57f5326181b
 
-- Youtube
+-Youtube
  - Gaurav Sen https://www.youtube.com/@gkcs
  - System Design Interview https://www.youtube.com/@SystemDesignInterview
  - Exponent https://www.youtube.com/@tryexponent
