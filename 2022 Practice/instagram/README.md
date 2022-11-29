@@ -1,9 +1,9 @@
-Design Instagram:
+# Design Instagram:
 
-
+## Design
 ![instagram](./Untitled.png)
 
-Functional Requirements:
+## Functional Requirements:
 
 1. User should be able to access the app on Mobile and Website
 2. Only English
@@ -34,7 +34,7 @@ On premise
 
 
 
-Non-Functional Requirements:
+## Non-Functional Requirements:
 
 1. Scalability
 2. Availability and Fault Tolerance  99.9999 
@@ -47,7 +47,7 @@ Consistency - Eventual 1 hour consistency
 
 
 
-Back of the Envelope Estimations:
+## Back of the Envelope Estimations:
 
 
 Data Design
@@ -69,7 +69,7 @@ Data Design
 100KB * 10B per day / 10 ^5 = 100Kb * 1M = 100GB per second
 
 
-Data Storage
+## Data Storage
 
 Users
 - id
