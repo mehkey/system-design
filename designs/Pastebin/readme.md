@@ -63,19 +63,19 @@ P0
 
 1M Users
 
-Users:
--user_id (pk) 
--user_name
--email_address
--password (hashed)
--creation_date
+### Users:
+- user_id (pk) 
+- user_name
+- email_address
+- password (hashed)
+- creation_date
 
-Pastebin
--pastebin_id (pk)
--content (1000 words) 
--password (optional)
--creation_date
--user_id (creator)
+### Pastebin
+- pastebin_id (pk)
+- content (1000 words) 
+- password (optional)
+- creation_date
+- user_id (creator)
 
 
 Average:
