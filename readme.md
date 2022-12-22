@@ -58,6 +58,3 @@
   * [architecture-styles-worksheet.jpg](./resources/architecture-styles-worksheet.jpg)
 * [.gitattributes](./.gitattributes)
 * [readme.md](./readme.md)
-
-
-## [Resources](./resources)
