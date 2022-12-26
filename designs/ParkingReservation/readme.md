@@ -1,46 +1,14 @@
+
+
+
 # Parking-Garage
 Design a reservation and payment system for a parking garage.
 
-The requirements will involve:
 
-a way to reserve a parking spot and receive a ticket/seat
-the ability to pay for a parking spot
-preventing two people from being able to reserve the same parking spot
-three types of parking spots: compact, regular, and large vehicles
-the prices for the garage are flat rate based on time duration, and they are different for each type of parking spot
-
-This editor is synced in real time with your peer.
-
-Use it to share thoughts and resources, such as:
-- Features scope
-- API design
-- Pseudo code for specific components
-- Data model/schema
-- Back-of-the-envelope calculations
-- Reference links
-- Link to whiteboard or diagram such as https://sketchboard.me/new
-
-Good luck!
+## Design
+![Design](Untitled7.png)
 
 
-mckinsey
-
-
-
-API Design
-Data Model
-
-Total Users
-Type of Communication
-
-Database Model
-
-YT and Posts
-
-
-
-
-Belo horizonte Parking Garage Design
 
 
 ## Requirements:
@@ -119,8 +87,6 @@ Wallet
 -expdate
 
 
-
-
 UP to 100GB
 
 
@@ -131,6 +97,7 @@ TYPE
 
 
 https://excalidraw.com/#room=ed9b803f20d8cd5b323e,SltxcfMMWwJ4rfrU-u6QBA
+
 
 
 
