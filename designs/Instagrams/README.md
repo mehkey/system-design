@@ -1,7 +1,7 @@
 # Design Instagram:
 
 ## Design
-![instagram](./Untitled.png)
+![instagram](./Untitled33.png)
 
 ## Functional Requirements:
 
@@ -80,35 +80,57 @@ Followers
 - followerid
 - followedid
 
-Video
+Content
 -id
--desctition
--size
--date
+-type(video or picture)
+-createddate
 
-Picture
--id
--desctition
--size
--date
-
-Feed Data (Cache)
-- user id
-- List of posts
-
+Feed Data
+- userid
+- ListOfContentId
 
 Comments 
 - id
 - contentid
 - userid
-- comment_text
-- time
+- commentText
+- datetime
 
 Likes
 - id
 - contentid
 - userid
-- time
+- datetime
+
+
+Videos
+-id
+-desctition
+-size
+-datecreated
+
+Pictures
+-id
+-desctition
+-size
+-date
+
+Feed Data
+- userid
+- ListOfContentId
+
+Comments 
+- id
+- contentid
+- userid
+- commentText
+- datetime
+
+Likes
+- id
+- contentid
+- userid
+- datetime
 
 1. 
 POST /uploadVideo
@@ -128,3 +150,6 @@ https://excalidraw.com/#room=7df977a70821966fce9d,GMBCEhLebt5SLCR-OlVqFg
 
 
 Latency Steam processor... tight processing...
+
+
+
