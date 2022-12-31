@@ -1,6 +1,9 @@
 
 # Serving Advertising
 
+## Design
+![Advertising Serving](Untitled32.png)
+
 ## Functional requirements:
 1. The advertising platform should allow users to view advertisements.
 2. The platform should allow advertisers to create and manage campaigns to display their advertisements to users.
