@@ -1,28 +1,24 @@
 
 # Design a URL Shortner
 
-
-## Design
-![shorteneing service](./Untitled6.png)
-
 ## Functional Requirements:
 - A user should provide a URL and receive a shoreded url
 - A user should be redirected to the original URL when going to the shoretened URL
 
 - Timelimit on the short? URL valid for a configurable amount of time
 
+- How many short urls created per day?
 
 
 - Before redirecting the user should see a 
-  - Temporary Accept page
-  - Temporary Ad
-  
-- Content should be filtered 
+- Temporary Accept page
+- Temporary Add 
+- Content Filtering 
 
 
-- How many short urls created per day?
 1M per day
 Possibly going to increase over time.
+
 
 - How many short urls accesssed per day?
 100M per day
@@ -44,6 +40,7 @@ and Elasticity
 
 1M per day
 
+
 Storage
 
 URL Object
@@ -51,7 +48,8 @@ URL Object
 - shortened URL:string
 - creation date:date
 
-URL Cache Index
+
+URL Index
 - shortened URL:string (PK)
 - url:date
 
@@ -73,3 +71,7 @@ Per year -> 60GB per year
 
 
 https://excalidraw.com/#room=af7753a386e9ccb7a1ed,okUEe7xknHtend56YtxbiA
+
+
+
+Lessons:
