@@ -12,10 +12,13 @@
     * [readme.md](./designs/CloudService/readme.md)
   * [Instagrams/](./designs/Instagrams)
     * [README.md](./designs/Instagrams/README.md)
-    * [Untitled.png](./designs/Instagrams/Untitled.png)
+    * [Untitled33.png](./designs/Instagrams/Untitled33.png)
   * [Mint/](./designs/Mint)
     * [Untitled22.png](./designs/Mint/Untitled22.png)
     * [readme.md](./designs/Mint/readme.md)
+  * [NewsFeedOnAWS/](./designs/NewsFeedOnAWS)
+    * [Untitled35.png](./designs/NewsFeedOnAWS/Untitled35.png)
+    * [readme.md](./designs/NewsFeedOnAWS/readme.md)
   * [PageViewAnalytics/](./designs/PageViewAnalytics)
     * [Untitled20.png](./designs/PageViewAnalytics/Untitled20.png)
     * [readme.md](./designs/PageViewAnalytics/readme.md)
@@ -34,11 +37,20 @@
   * [SearchAutoComplete/](./designs/SearchAutoComplete)
     * [Untitled14.png](./designs/SearchAutoComplete/Untitled14.png)
     * [readme.md](./designs/SearchAutoComplete/readme.md)
+  * [SearchEngineCache/](./designs/SearchEngineCache)
+    * [Untitled27.png](./designs/SearchEngineCache/Untitled27.png)
+    * [readme.md](./designs/SearchEngineCache/readme.md)
+  * [ServingAdvertising/](./designs/ServingAdvertising)
+    * [Untitled32.png](./designs/ServingAdvertising/Untitled32.png)
+    * [readme.md](./designs/ServingAdvertising/readme.md)
+  * [SocialAdvertising/](./designs/SocialAdvertising)
+    * [Untitled17.png](./designs/SocialAdvertising/Untitled17.png)
   * [SocialGraphSearch/](./designs/SocialGraphSearch)
     * [Untitled15.png](./designs/SocialGraphSearch/Untitled15.png)
     * [readme.md](./designs/SocialGraphSearch/readme.md)
   * [Tiktoks/](./designs/Tiktoks)
     * [README.md](./designs/Tiktoks/README.md)
+    * [Untitled 3.png](./designs/Tiktoks/Untitled 3.png)
     * [Untitled5.png](./designs/Tiktoks/Untitled5.png)
   * [Twitter/](./designs/Twitter)
     * [Untitled8.png](./designs/Twitter/Untitled8.png)
@@ -58,10 +70,4 @@
   * [architecture-styles-worksheet.jpg](./resources/architecture-styles-worksheet.jpg)
 * [.gitattributes](./.gitattributes)
 * [readme.md](./readme.md)
-<<<<<<< Updated upstream
-=======
 
-
-## [Resources](./resources)
-
->>>>>>> Stashed changes
