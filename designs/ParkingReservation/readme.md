@@ -6,7 +6,7 @@ Design a reservation and payment system for a parking garage.
 
 
 ## Design
-![Design](Untitled7.png)
+![Design](Untitled49.png)
 
 
 
