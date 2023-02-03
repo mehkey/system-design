@@ -8,9 +8,6 @@
 + FB
 
 * [designs/](./designs)
-  * [CloudService/](./designs/CloudService)
-    * ![Untitled12.png](./designs/CloudService/Untitled12.png)
-    * [readme.md](./designs/CloudService/readme.md)
   * [Instagrams/](./designs/Instagrams)
     * [README.md](./designs/Instagrams/README.md)
     * ![Untitled33.png](./designs/Instagrams/Untitled33.png)
@@ -49,6 +46,9 @@
   * [SocialGraphSearch/](./designs/SocialGraphSearch)
     * ![Untitled15.png](./designs/SocialGraphSearch/Untitled15.png)
     * [readme.md](./designs/SocialGraphSearch/readme.md)
+  * [CloudService/](./designs/ServiceOnCloudToScale)
+    * ![Untitled12.png](./designs/ServiceOnCloudToScale/Untitled12.png)
+    * [readme.md](./designs/CloudService/readme.md)
   * [Tiktoks/](./designs/Tiktoks)
     * [README.md](./designs/Tiktoks/README.md)
     * ![Untitled5.png](./designs/Tiktoks/Untitled5.png)
