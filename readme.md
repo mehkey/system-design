@@ -24,7 +24,7 @@
     * ![Untitled20.png](./designs/PageViewAnalytics/Untitled20.png)
     * [readme.md](./designs/PageViewAnalytics/readme.md)
   * [ParkingReservation/](./designs/ParkingReservation)
-    * [Untitled7.png](./designs/ParkingReservation/Untitled49.png)
+    * ![Untitled7.png](./designs/ParkingReservation/Untitled49.png)
     * [readme.md](./designs/ParkingReservation/readme.md)
   * [Pastebin/](./designs/Pastebin)
     * ![Untitled9.png](./designs/Pastebin/Untitled9.png)
